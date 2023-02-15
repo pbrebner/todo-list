@@ -1,1 +1,45 @@
 /* Stylesheet for Todo List App*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.header {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.sidebar {
+    background-color: antiquewhite;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tabSection {
+    display: grid;
+    gap: 10px;
+}
+
+.projectSection {
+    flex: 1;
+}
+
+.display {
+    padding: 30px;
+}
